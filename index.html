@@ -217,7 +217,7 @@
     .slide {
       position: absolute;
       inset: 0;
-      padding: 44px 24px 34px;
+      padding: 44px 24px 28px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -310,7 +310,7 @@
       border: 1px solid rgba(212, 175, 55, 0.4);
       border-radius: 18px;
       padding: 12px 14px;
-      margin: 8px 0 12px;
+      margin: 6px 0 10px;
       box-shadow: 0 8px 24px rgba(10, 31, 24, 0.05);
     }
     .cal-split {
@@ -348,7 +348,7 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 6px;
       width: 100%;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
     .cd-box {
       background: rgba(10, 31, 24, 0.04);
@@ -371,11 +371,11 @@
     .action-group {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 7px;
       width: 100%;
     }
     .btn {
-      padding: 10px 16px;
+      padding: 9px 16px;
       border-radius: 30px;
       font-size: 0.82rem;
       font-weight: 600;
@@ -402,6 +402,20 @@
       background: #ffffff;
       border: 1px solid rgba(212, 175, 55, 0.6);
       color: var(--emerald-dark);
+    }
+
+    /* Custom Credit Tag */
+    .credit-tag {
+      font-size: 0.65rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #8ea79b;
+      margin-top: 12px;
+      font-weight: 500;
+      opacity: 0.85;
+      text-align: center;
+      user-select: none;
+      font-family: sans-serif;
     }
   </style>
 </head>
@@ -549,6 +563,9 @@
             📍 गुगल मॅप्सवर ठिकाण पहा
           </a>
         </div>
+
+        <!-- Custom Credit Tag -->
+        <p class="credit-tag">Crafted with ♥ by Sarang</p>
       </div>
 
     </div>
